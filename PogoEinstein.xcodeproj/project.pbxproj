@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5B1082D2902D348000D430D /* PogoEinsteinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B1082C2902D348000D430D /* PogoEinsteinApp.swift */; };
+		B5B1082F2902D348000D430D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B1082E2902D348000D430D /* ContentView.swift */; };
+		B5B108312902D350000D430D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B108302902D350000D430D /* Assets.xcassets */; };
+		B5B108342902D350000D430D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B108332902D350000D430D /* Preview Assets.xcassets */; };
+		B5B1083E2902D351000D430D /* PogoEinsteinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B1083D2902D351000D430D /* PogoEinsteinTests.swift */; };
+		B5B108482902D351000D430D /* PogoEinsteinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B108472902D351000D430D /* PogoEinsteinUITests.swift */; };
+		B5B1084A2902D351000D430D /* PogoEinsteinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B108492902D351000D430D /* PogoEinsteinUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5B1083A2902D351000D430D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5B108212902D348000D430D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5B108282902D348000D430D;
+			remoteInfo = PogoEinstein;
+		};
+		B5B108442902D351000D430D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5B108212902D348000D430D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5B108282902D348000D430D;
+			remoteInfo = PogoEinstein;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5B108292902D348000D430D /* PogoEinstein.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PogoEinstein.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5B1082C2902D348000D430D /* PogoEinsteinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PogoEinsteinApp.swift; sourceTree = "<group>"; };
+		B5B1082E2902D348000D430D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B5B108302902D350000D430D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5B108332902D350000D430D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B5B108392902D351000D430D /* PogoEinsteinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PogoEinsteinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5B1083D2902D351000D430D /* PogoEinsteinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PogoEinsteinTests.swift; sourceTree = "<group>"; };
+		B5B108432902D351000D430D /* PogoEinsteinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PogoEinsteinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5B108472902D351000D430D /* PogoEinsteinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PogoEinsteinUITests.swift; sourceTree = "<group>"; };
+		B5B108492902D351000D430D /* PogoEinsteinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PogoEinsteinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5B108262902D348000D430D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5B108362902D351000D430D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5B108402902D351000D430D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5B108202902D348000D430D = {
+			isa = PBXGroup;
+			children = (
+				B5B1082B2902D348000D430D /* PogoEinstein */,
+				B5B1083C2902D351000D430D /* PogoEinsteinTests */,
+				B5B108462902D351000D430D /* PogoEinsteinUITests */,
+				B5B1082A2902D348000D430D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5B1082A2902D348000D430D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5B108292902D348000D430D /* PogoEinstein.app */,
+				B5B108392902D351000D430D /* PogoEinsteinTests.xctest */,
+				B5B108432902D351000D430D /* PogoEinsteinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5B1082B2902D348000D430D /* PogoEinstein */ = {
+			isa = PBXGroup;
+			children = (
+				B5B1082C2902D348000D430D /* PogoEinsteinApp.swift */,
+				B5B1082E2902D348000D430D /* ContentView.swift */,
+				B5B108302902D350000D430D /* Assets.xcassets */,
+				B5B108322902D350000D430D /* Preview Content */,
+			);
+			path = PogoEinstein;
+			sourceTree = "<group>";
+		};
+		B5B108322902D350000D430D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B5B108332902D350000D430D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B5B1083C2902D351000D430D /* PogoEinsteinTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5B1083D2902D351000D430D /* PogoEinsteinTests.swift */,
+			);
+			path = PogoEinsteinTests;
+			sourceTree = "<group>";
+		};
+		B5B108462902D351000D430D /* PogoEinsteinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5B108472902D351000D430D /* PogoEinsteinUITests.swift */,
+				B5B108492902D351000D430D /* PogoEinsteinUITestsLaunchTests.swift */,
+			);
+			path = PogoEinsteinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5B108282902D348000D430D /* PogoEinstein */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5B1084D2902D351000D430D /* Build configuration list for PBXNativeTarget "PogoEinstein" */;
+			buildPhases = (
+				B5B108252902D348000D430D /* Sources */,
+				B5B108262902D348000D430D /* Frameworks */,
+				B5B108272902D348000D430D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PogoEinstein;
+			productName = PogoEinstein;
+			productReference = B5B108292902D348000D430D /* PogoEinstein.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5B108382902D351000D430D /* PogoEinsteinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5B108502902D351000D430D /* Build configuration list for PBXNativeTarget "PogoEinsteinTests" */;
+			buildPhases = (
+				B5B108352902D351000D430D /* Sources */,
+				B5B108362902D351000D430D /* Frameworks */,
+				B5B108372902D351000D430D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5B1083B2902D351000D430D /* PBXTargetDependency */,
+			);
+			name = PogoEinsteinTests;
+			productName = PogoEinsteinTests;
+			productReference = B5B108392902D351000D430D /* PogoEinsteinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5B108422902D351000D430D /* PogoEinsteinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5B108532902D351000D430D /* Build configuration list for PBXNativeTarget "PogoEinsteinUITests" */;
+			buildPhases = (
+				B5B1083F2902D351000D430D /* Sources */,
+				B5B108402902D351000D430D /* Frameworks */,
+				B5B108412902D351000D430D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5B108452902D351000D430D /* PBXTargetDependency */,
+			);
+			name = PogoEinsteinUITests;
+			productName = PogoEinsteinUITests;
+			productReference = B5B108432902D351000D430D /* PogoEinsteinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5B108212902D348000D430D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					B5B108282902D348000D430D = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					B5B108382902D351000D430D = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = B5B108282902D348000D430D;
+					};
+					B5B108422902D351000D430D = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = B5B108282902D348000D430D;
+					};
+				};
+			};
+			buildConfigurationList = B5B108242902D348000D430D /* Build configuration list for PBXProject "PogoEinstein" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5B108202902D348000D430D;
+			productRefGroup = B5B1082A2902D348000D430D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5B108282902D348000D430D /* PogoEinstein */,
+				B5B108382902D351000D430D /* PogoEinsteinTests */,
+				B5B108422902D351000D430D /* PogoEinsteinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5B108272902D348000D430D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B108342902D350000D430D /* Preview Assets.xcassets in Resources */,
+				B5B108312902D350000D430D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5B108372902D351000D430D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5B108412902D351000D430D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5B108252902D348000D430D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B1082F2902D348000D430D /* ContentView.swift in Sources */,
+				B5B1082D2902D348000D430D /* PogoEinsteinApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5B108352902D351000D430D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B1083E2902D351000D430D /* PogoEinsteinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5B1083F2902D351000D430D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B1084A2902D351000D430D /* PogoEinsteinUITestsLaunchTests.swift in Sources */,
+				B5B108482902D351000D430D /* PogoEinsteinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5B1083B2902D351000D430D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5B108282902D348000D430D /* PogoEinstein */;
+			targetProxy = B5B1083A2902D351000D430D /* PBXContainerItemProxy */;
+		};
+		B5B108452902D351000D430D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5B108282902D348000D430D /* PogoEinstein */;
+			targetProxy = B5B108442902D351000D430D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B5B1084B2902D351000D430D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5B1084C2902D351000D430D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5B1084E2902D351000D430D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PogoEinstein/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = be.lafra.PogoEinstein;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5B1084F2902D351000D430D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PogoEinstein/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = be.lafra.PogoEinstein;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B5B108512902D351000D430D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = be.lafra.PogoEinsteinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PogoEinstein.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PogoEinstein";
+			};
+			name = Debug;
+		};
+		B5B108522902D351000D430D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = be.lafra.PogoEinsteinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PogoEinstein.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PogoEinstein";
+			};
+			name = Release;
+		};
+		B5B108542902D351000D430D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = be.lafra.PogoEinsteinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PogoEinstein;
+			};
+			name = Debug;
+		};
+		B5B108552902D351000D430D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = be.lafra.PogoEinsteinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PogoEinstein;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5B108242902D348000D430D /* Build configuration list for PBXProject "PogoEinstein" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5B1084B2902D351000D430D /* Debug */,
+				B5B1084C2902D351000D430D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5B1084D2902D351000D430D /* Build configuration list for PBXNativeTarget "PogoEinstein" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5B1084E2902D351000D430D /* Debug */,
+				B5B1084F2902D351000D430D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5B108502902D351000D430D /* Build configuration list for PBXNativeTarget "PogoEinsteinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5B108512902D351000D430D /* Debug */,
+				B5B108522902D351000D430D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5B108532902D351000D430D /* Build configuration list for PBXNativeTarget "PogoEinsteinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5B108542902D351000D430D /* Debug */,
+				B5B108552902D351000D430D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5B108212902D348000D430D /* Project object */;
+}
